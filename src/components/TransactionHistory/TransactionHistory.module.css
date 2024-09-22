@@ -1,17 +1,17 @@
-table {
+.table {
   margin-top: 50px;
   margin-bottom: 50px;
   border-collapse: collapse;
 }
 
-th {
+.head {
   text-align: center;
   background-color: #2a2a2a;
   color: #fafafa;
 }
 
-td,
-th {
+.data,
+.header {
   text-transform: capitalize;
   padding: 5px 80px;
   border-bottom: 1px solid #000;
@@ -19,6 +19,6 @@ th {
   border-right: 1px solid #000;
 }
 
-tr:nth-child(even) {
+.body:nth-child(even) {
   background-color: #d3d3d3;
 }
